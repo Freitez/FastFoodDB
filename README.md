@@ -1,0 +1,13 @@
+El proyecto se realizó bajo una estructura de fases de trabajos, que esta divida en cuatro fases fundamentales descritas de la siguiente manera:
+
+Fase 1:
+En esta fase fundamentalmente se crea la base de datos con la que vamos a estar trabajando durante toda la ejecución del proyecto, estipulamos los parámetros iniciales para la creación del DATABASE; del mismo modo se le dio estructura a la base datos con las creaciones de las tablas que darían cuerpo a la misma, para ello desarrollamos un borrador de un diagrama relacional (previo) que nos permitió ver la posible estructura de la base de datos y así poder ir creando todas las tablas necesarias  para nuestra base de datos, es importante señalar que esta fase se normalizaron todos los elementos de la base datos, así como también se asignaron la PK y las FK correspondientes para que en el posterior baseado de los datos los mismos sean cargados de forma limpia y amigable.
+
+Fase 2:
+Para esta fase se insertaron los datos correspondientes a las tablas creadas en la fase, datos que se convertirían en nuestros elementos importantes para darle vida a la base de datos, solo se tuvo un percance en el formato de uno de los datos que hacia referencia a fecha ya que el equipo no reconocía el formato para ellos hicimos algunos ajusto manuales. Independientemente que los datos ya estaban normalizados en esta fase se aprovecho para hacer algunas actualizaciones y modificaciones en nuestra base de datos haciendo uso del UPDATE y DELETE (Acá nos encontramos con una traba para eliminación de un producto por lo cual tuvimos que desactivar y activar una FK) . Una vez normalizada nuestra base de datos se comenzó con la consulta a nuestra base de datos en la búsqueda de insigth valiosos para saber cuantos empleados tenemos, cuantos productos por categoría, las ventas por sucursales y otros.
+
+Fase 3:
+Se dio uso a consultas avanzadas utilizando funciones de agregación como SUM, AVG, MIN y MAX podrás obtener insigth valiosos y responder a consultas específicas sobre los datos almacenados en nuestra base que hagan referencia principalmente a las ventas por ejemplo: las ventas realizadas pero diferenciada por los tipos de pago, que sucursal posee el promedio más alto, una comparación de ventas entre un periodo de tiempo, que turno registro el mayor  movimiento de ventas o cual fue el pedido mas lejos que llevo un mensajero, entre otra.
+
+Fase 4:
+Están ultima fase logramos obtener consultas mas avanzadas gracias a la ejecución de los JOIN`s que no facilita la interacción de datos entre distintas tablas permitiendo ser más específicos en nuestras consultas 
